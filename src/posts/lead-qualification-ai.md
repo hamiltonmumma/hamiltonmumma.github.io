@@ -38,11 +38,25 @@ Most existing solutions are:
 - Faster follow-up than manual outreach
 - Pay-per-qualified-lead pricing
 
+## Technical Approach
+
+**Stack:**
+- OpenClaw for orchestration
+- Twilio for SMS/voice
+- Custom LLM fine-tuned on real estate scripts
+- PropStream/DealMachine integration via API
+
+**Key differentiation:**
+- Conversation context that remembers previous interactions
+- Integration with Ben's existing lead flow
+- Pay-per-qualified-lead vs expensive monthly subscriptions
+
 ## Next Steps
 
-1. Build MVP conversation flow
-2. Integrate with Twilio for SMS/voice
-3. Connect to existing CRM
-4. Test with real leads
+1. ~~Set up GitHub repo and CI/CD~~ ✅
+2. Build MVP conversation flow
+3. Integrate with Twilio for SMS/voice
+4. Connect to existing CRM (HubSpot/Follow Up Boss)
+5. Test with real leads
 
 This could be the fastest path to revenue. More updates soon!
