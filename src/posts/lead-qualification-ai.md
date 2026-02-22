@@ -54,9 +54,11 @@ Most existing solutions are:
 ## Next Steps
 
 1. ~~Set up GitHub repo and CI/CD~~ ✅
-2. Build MVP conversation flow
+2. ~~Build MVP conversation flow~~ (Paused - focused on ScholarQuest)
 3. Integrate with Twilio for SMS/voice
-4. Connect to existing CRM (HubSpot/Follow Up Boss)
+4. Connect to existing/Follow Up Boss)
 5. Test with real leads
+
+**Status:** Research CRM (HubSpot phase - waiting for bandwidth after ScholarQuest MVP
 
 This could be the fastest path to revenue. More updates soon!

@@ -1,78 +1,71 @@
 ---
-title: "ScholarQuest: Kids Earning Through Academic Challenges"
-date: "2026-02-18"
-excerpt: "Introducing a new platform where kids complete monthly academic challenges to unlock incentive funds"
+title: "ScholarQuest: MVP Launch - Academic Challenge Platform"
+date: "2026-02-22"
+excerpt: "The Academic Challenge App MVP is live! Family setup, challenge management, and more"
 ---
 
-# ScholarQuest: Kids Earning Through Academic Challenges
+# ScholarQuest: MVP Launch! 🎉
 
-I've been working on a new project that I'm excited to share: **ScholarQuest** (working title) — a platform where kids complete monthly academic challenges to unlock incentive funds like 529 plans, allowances, or custom rewards.
+Great news — the Academic Challenge App (formerly ScholarQuest) MVP is now live! Here's what's been built and what's next.
 
-## The Concept
+## What's New
 
-The idea is simple but powerful:
-- **Guardians** create academic challenges (Math, Science, Reading, Creative, Coding)
-- **Students** browse and pick ONE challenge to commit to each month
-- They submit proof of completion
-- **AI does a first-pass grading**, then guardians can approve or override
-- Points translate to rewards (dollar amount configurable per family)
+Since the last update, we've made significant progress:
 
-## Why This Matters
+### ✅ Completed (Feb 21)
 
-Many kids struggle with motivation for academic work. gamification of learning isn't new, but:
-- Most existing platforms are games first, learning second
-- Parent involvement is often superficial
-- Rewards are usually points/gamification currency, not real money
+**Phase 1: Family Setup**
+- Guardians can create families with unique invite codes
+- Students join families using invite codes
+- Family roster management (view/remove members)
 
-**ScholarQuest bridges this gap** — the rewards are *real* (or at least track toward real goals like college savings).
+**Phase 2: Challenge Management**
+- Guardians create challenges with: title, description, category, difficulty, points, due date
+- Custom AI rubric for grading (optional)
+- Challenge library: pre-built global challenges + family-specific challenges
+- Students browse and select ONE challenge per month (selection locks)
 
-## Technical Stack
+### Tech Stack Updates
 
+**Changed:** Migrated from Supabase to **Neon** (PostgreSQL) for the database
+- Better free tier for hobby projects
+- More familiar SQL syntax
+
+**Added:** **OpenRouter** for AI grading (GPT-4 compatible, multiple providers)
+
+**Final Stack:**
 | Layer | Technology |
 |-------|------------|
 | Frontend | Next.js 14, TypeScript, Tailwind |
 | Auth | Clerk |
-| Database | Supabase (PostgreSQL) |
-| AI | OpenAI API (GPT-4) |
+| Database | Neon (PostgreSQL) |
+| AI | OpenRouter (OpenAI-compatible) |
 | Hosting | Vercel |
 
-## Key Features
+### Key Technical Fixes Along the Way
 
-### For Guardians
-- Create challenge templates with custom rubrics
-- Pre-built challenge library (AI can generate suggestions)
-- View submissions, approve/override AI grades
-- Family dashboard with performance analytics
+- Clerk user IDs are strings like `"user_xxx"`, not UUIDs — schema updated accordingly
+- Environment variables for client-side Neon needed `NEXT_PUBLIC_` prefix
+- Connection string quoting issues (single vs double quotes matter in .env!)
 
-### For Students
-- Browse monthly challenges by category/difficulty
-- Pick ONE challenge to commit to
-- Submit proof (text, images, PDFs)
-- Track progress, points, and earnings
-- Badges and celebrations! 🎉
+## What's Left
 
-### AI Grading (The Cool Part)
-- OpenAI evaluates submissions against custom rubrics
-- Gives score + constructive feedback
-- Guardian always has final say
-- Creates accountability without micromanagement
+**Phase 3: Submission & Grading**
+- Student submits proof (text, file upload, links)
+- AI first-pass grading against custom rubric
+- Guardian review flow (approve or override)
 
-## Phases
+**Phase 4: Progress & Rewards**
+- Student dashboard: completed challenges, points earned
+- Guardian analytics: family leaderboard, completion rates
+- Reward tracking with configurable points-to-dollar conversion
 
-**Phase 1 (MVP):** Auth, challenge CRUD, selection, submission, basic dashboard
+## Try It Out
 
-**Phase 2:** AI grading integration, guardian approval flow, custom challenge proposals
+The code is live on GitHub: [hamiltonmumma/academic-challenge-app](https://github.com/hamiltonmumma/academic-challenge-app)
 
-**Phase 3:** Family management, reward tracking, analytics
+Still in MVP — we're building Phase 3 next. If you know families who'd find this useful, send them our way!
 
-## What's Next
+---
 
-This project is just getting started. Next steps:
-- [ ] Set up Clerk account
-- [ ] Configure Supabase schema
-- [ ] Build out the challenge management UI
-- [ ] Integrate OpenAI for grading
-
-I'm excited about this one — it's a chance to build something that actually helps families while learning about AI integration, gamification, and full-stack development.
-
-More updates soon!
+*More updates as we ship.*
