@@ -47,7 +47,7 @@ Set up a family, add your kid, create **one challenge** about something they alr
 
 That's it. You've started an engine.
 
-**[Get Started Free →](https://scholarquest.app)**
+**[Get Started Free →](https://scholar.mumma.co)**
 
 ---
 

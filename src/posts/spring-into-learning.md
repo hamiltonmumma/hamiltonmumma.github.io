@@ -20,7 +20,7 @@ The best part? You set the goals, the rewards, and the timeline. No expensive pr
 
 ## Getting Started Takes 5 Minutes
 
-1. Create a family account at [scholarquest.vercel.app](https://scholarquest.vercel.app)
+1. Create a family account at [scholar.mumma.co](https://scholar.mumma.co)
 2. Add your children with their PIN-protected profiles
 3. Create a challenge based on their current interest
 4. Set rewards together—maybe extra screen time, a special outing, or a small prize
@@ -39,6 +39,6 @@ Set a reward for completion: maybe they're the "weather wizard" for a week and g
 
 ---
 
-Ready to spark some learning magic? Head to [scholarquest.vercel.app](https://scholarquest.vercel.app) and start your first challenge today.
+Ready to spark some learning magic? Head to [scholar.mumma.co](https://scholar.mumma.co) and start your first challenge today.
 
 *ScholarQuest is free for families. No ads, no subscriptions—just learning, achievement, and family fun.*

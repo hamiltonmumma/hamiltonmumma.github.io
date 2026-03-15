@@ -41,7 +41,7 @@ ScholarQuest is a free platform where families create personalized educational c
 
 Setting up takes 5 minutes. It's free, there's no credit card required.
 
-**[Try ScholarQuest Free →](https://scholarquest.app)**
+**[Try ScholarQuest Free →](https://scholar.mumma.co)**
 
 ---
 
