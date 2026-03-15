@@ -28,7 +28,7 @@ export default function ScholarQuest() {
           </p>
           <div className="flex gap-4 justify-center">
             <a 
-              href="https://scholarquest.app"
+              href="https://scholar.mumma.co"
               className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl font-semibold hover:opacity-90 transition text-lg"
             >
               Try ScholarQuest Free →
@@ -126,7 +126,7 @@ export default function ScholarQuest() {
           <h3 className="text-3xl font-bold mb-4">Ready to Transform Learning?</h3>
           <p className="text-slate-400 mb-8">Set up takes 5 minutes. It's free. No credit card required.</p>
           <a 
-            href="https://scholarquest.app"
+            href="https://scholar.mumma.co"
             className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl font-semibold hover:opacity-90 transition text-lg inline-block"
           >
             Get Started Free →

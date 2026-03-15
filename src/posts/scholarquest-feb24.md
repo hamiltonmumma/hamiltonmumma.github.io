@@ -52,7 +52,7 @@ Big update shipped today — Phase 3 is now live with submissions, grading, and 
 
 ## Try It Now
 
-The app is live at **scholarquest.app** (or deploy from GitHub)
+The app is live at **scholar.mumma.co** (or deploy from GitHub)
 
 Want to see it in action? Here's a 2-minute demo:
 → [Demo script in Obsidian](file:///Users/benmumma/.openclaw/workspace/obsidian-vault/business/scholarquest-demo-script.md)
