@@ -51,30 +51,13 @@ Most existing solutions are:
 - Integration with Ben's existing lead flow
 - Pay-per-qualified-lead vs expensive monthly subscriptions
 
-## Recent Progress (March 2026)
-
-ScholarQuest has made significant progress since February:
-- ✅ Full family management system (create family, invite codes, add members)
-- ✅ Child accounts with PIN-based login
-- ✅ AI Challenge Generator with guardian approval flow
-- ✅ AI Grading with age-appropriate rubrics
-- ✅ Rewards system with points-to-dollar conversion
-- ✅ Email notifications for submissions and new challenges
-- ✅ Achievement system (badges, streaks)
-- ✅ Mobile responsive design
-- ✅ Marketing landing page and blog
-- ✅ **Complete Notification System** (Mar 4) - Database migration, API endpoints, submission & challenge integration
-- ✅ **Quick Start Guide** (Mar 5) - Marketing asset for beta outreach
-- ✅ **Nightly Maintenance Routine** - Automated build checks, console.log cleanup, dependency audits
-
 ## Next Steps
 
 1. ~~Set up GitHub repo and CI/CD~~ ✅
-2. ~~Build MVP conversation flow~~ (Paused - focused on ScholarQuest)
-3. Beta launch with early families
+2. Build MVP conversation flow
+3. Beta launch with early customers
 4. Gather feedback and iterate
-5. Resume LQA after ScholarQuest reaches steady state
 
-**Status:** On hold — full focus on ScholarQuest. LQA will resume after ScholarQuest is monetized or reaches steady state.
+**Status:** On hold — focused on ScholarQuest for now. LQA will resume after ScholarQuest reaches monetization or steady state.
 
 This could be the fastest path to revenue. More updates soon!
