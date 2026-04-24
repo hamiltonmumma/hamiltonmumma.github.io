@@ -53,10 +53,11 @@ Most existing solutions are:
 
 ## Next Steps
 
-1. ~~Set up GitHub repo and CI/CD~~ ✅
-2. Build MVP conversation flow
-3. Beta launch with early customers
-4. Gather feedback and iterate
+- [ ] Resume after ScholarQuest reaches steady state
+- [ ] Define MVP features
+- [ ] Identify target customer segment
+- [ ] Build initial product/script
+- [ ] Test with real users
 
 **Status:** On hold — focused on ScholarQuest for now. LQA will resume after ScholarQuest reaches monetization or steady state.
 
